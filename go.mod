@@ -1,4 +1,4 @@
-module grpc
+module github.com/HOJIN-HAN/pb
 
 go 1.14
 
