@@ -4,6 +4,7 @@ package greetinggrpc;
 
 service Greeting {
   rpc SayGreet (GreetingRequest) returns (GreetingReply) {}
+  rpc CountGreet (GreetingRequest) returns (GreetingReply) {}
 }
 
 message GreetingRequest {
